@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_provider_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/provider_nav_dashboard" />
+    <item
+        android:id="@+id/nav_provider_slots"
+        android:icon="@drawable/ic_slot"
+        android:title="@string/provider_nav_slots" />
+    <item
+        android:id="@+id/nav_provider_ledger"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/provider_nav_ledger" />
+    <item
+        android:id="@+id/nav_provider_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/provider_nav_profile" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VerificationDetailHeader" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/navy_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VerificationDetailValue" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+</resources>

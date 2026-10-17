@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_admin_verifications"
+        android:icon="@drawable/ic_check_circle"
+        android:title="@string/admin_nav_verifications" />
+    <item
+        android:id="@+id/nav_admin_users"
+        android:icon="@drawable/ic_group"
+        android:title="@string/admin_nav_users" />
+    <item
+        android:id="@+id/nav_admin_finance"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/admin_nav_finance" />
+    <item
+        android:id="@+id/nav_admin_reports"
+        android:icon="@drawable/ic_reports"
+        android:title="@string/admin_nav_reports" />
+</menu>

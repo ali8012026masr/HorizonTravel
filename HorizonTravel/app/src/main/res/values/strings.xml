@@ -1,0 +1,796 @@
+<resources>
+    <string name="app_name">Horizon Travel</string>
+    <string name="app_tagline">Your Gateway to Endless Journeys</string>
+
+    <!-- Roles -->
+    <string name="role_tourist">Tourist</string>
+    <string name="role_guide">Tour Guide</string>
+    <string name="role_provider">Service Provider</string>
+    <string name="role_admin">Administrator</string>
+
+    <!-- Common labels & states -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="submit">Submit</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notifications">Notifications</string>
+    <string name="change_password">Change Password</string>
+
+    <!-- Common Error Messages -->
+    <string name="error_network">Unable to connect to server. Please check your network connection.</string>
+    <string name="error_timeout">Request timed out. Please try again.</string>
+    <string name="error_session_expired">Session expired. Please log in again.</string>
+    <string name="error_account_locked">Account is locked. Please contact support.</string>
+    <string name="error_generic">An unexpected error occurred. Please try again.</string>
+    <string name="error_invalid_input">Please check your inputs and try again.</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_email_already_registered">This email is already registered</string>
+    <string name="error_invalid_experience">Years of experience must be 0 or more</string>
+    <string name="error_invalid_price">Price must be a valid positive amount</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_splash">Horizon Travel</string>
+    <string name="title_login">Login</string>
+    <string name="title_register_chooser">Create an Account</string>
+    <string name="title_register_tourist">Tourist Registration</string>
+    <string name="title_register_guide">Tour Guide Registration</string>
+    <string name="title_register_provider">Service Provider Registration</string>
+    <string name="title_pending_verification">Account Verification</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="title_tourist_shell">Tourist Portal</string>
+    <string name="title_guide_shell">Guide Portal</string>
+    <string name="title_provider_shell">Provider Portal</string>
+    <string name="title_admin_shell">Admin Portal</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">Welcome back! Sign in to continue.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="register_here">Register</string>
+    <string name="forgot_password_prompt">Forgot Password?</string>
+    <string name="error_bad_credentials">Invalid email or password</string>
+
+    <!-- Register Chooser -->
+    <string name="register_chooser_subtitle">Select how you would like to use Horizon Travel</string>
+    <string name="choose_tourist_title">I\'m a Tourist</string>
+    <string name="choose_tourist_desc">Explore destinations, book transport, hotels, and hire local guides.</string>
+    <string name="choose_guide_title">I\'m a Tour Guide</string>
+    <string name="choose_guide_desc">Offer tour packages, manage your schedule, and guide travelers.</string>
+    <string name="choose_provider_title">I\'m a Service Provider</string>
+    <string name="choose_provider_desc">List transport, hotel, or attraction slots and track incoming bookings.</string>
+    <string name="admin_account_note">Administrator accounts are provisioned by system administration.</string>
+
+    <!-- Registration Fields -->
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number (optional)</string>
+    <string name="address_hint">Address (optional)</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="national_id_hint">National ID / Passport (optional)</string>
+    <string name="bio_hint">About You / Bio (optional)</string>
+    <string name="languages_hint">Languages spoken, e.g. English, Bengali (optional)</string>
+    <string name="location_hint">City / Location (optional)</string>
+    <string name="experience_years_hint">Experience (Years, optional)</string>
+    <string name="default_price_hint">Default Rate ($)</string>
+    <string name="negotiable_label">Price is negotiable</string>
+    <string name="business_name_hint">Business / Agency Name</string>
+    <string name="trade_license_hint">Trade License Number (optional)</string>
+    <string name="category_hint">Service Category</string>
+    <string name="commission_rate_hint">Commission Rate (%, optional)</string>
+    <string name="register_button">Create Account</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="login_here">Sign In</string>
+    <string name="registration_success_tourist">Account created successfully! Please sign in.</string>
+    <string name="registration_success_awaiting_approval">Registration submitted! Your account is awaiting admin approval.</string>
+
+    <!-- Pending Verification -->
+    <string name="status_awaiting_title">Application Under Review</string>
+    <string name="status_awaiting_desc">Your account is currently awaiting administrator verification. You will be able to access all features once your profile is verified.</string>
+    <string name="status_rejected_title">Application Rejected</string>
+    <string name="status_rejected_desc">Your verification application was rejected.\n\nReason: %1$s</string>
+    <string name="status_rejected_reason_fallback">No specific reason provided.</string>
+    <string name="status_suspended_title">Account Suspended</string>
+    <string name="status_suspended_desc">Your account access has been suspended. Please contact support.</string>
+    <string name="status_revoked_title">Account Revoked</string>
+    <string name="status_revoked_desc">Your account access has been revoked permanently.</string>
+    <string name="btn_refresh_status">Refresh Status</string>
+    <string name="status_still_pending">Status checked: account is still under review.</string>
+    <string name="status_now_approved">Account approved! Welcome aboard.</string>
+
+    <!-- Forgot & Reset Password -->
+    <string name="forgot_password_desc">Enter your account email to receive a password reset token.</string>
+    <string name="btn_send_reset_token">Send Reset Token</string>
+    <string name="reset_token_sent_toast">Reset token request submitted. Please check your email or system logs.</string>
+    <string name="already_have_token_prompt">Already have a token? Reset password here</string>
+    <string name="reset_password_desc">Enter the reset token sent to your email and your new password.</string>
+    <string name="reset_token_hint">Reset Token</string>
+    <string name="new_password_hint">New Password (min 6 chars)</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="password_reset_success_toast">Password reset successfully! Please sign in with your new password.</string>
+
+    <!-- Notifications -->
+    <string name="title_notifications">Notifications</string>
+    <string name="notifications_empty_title">No notifications yet</string>
+    <string name="notifications_empty_desc">You\'re all caught up! Updates regarding your bookings and requests will appear here.</string>
+    <string name="menu_mark_all_read">Mark all read</string>
+    <string name="toast_all_notifications_marked_read">All notifications marked as read</string>
+    <string name="notification_bell_description">Notifications</string>
+
+    <!-- Change Password -->
+    <string name="title_change_password">Change Password</string>
+    <string name="change_password_desc">Choose a strong password with at least 6 characters.</string>
+    <string name="current_password_hint">Current Password</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="password_changed_success_toast">Password changed, please log in again</string>
+
+    <!-- Tourist Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_guides">Guides</string>
+    <string name="nav_bookings">Bookings</string>
+    <string name="nav_profile">Profile</string>
+    <string name="cart_action_desc">Shopping Cart</string>
+
+    <!-- Tourist Home -->
+    <string name="home_greeting">Hello, %1$s!</string>
+    <string name="home_points_balance">Loyalty Points: %1$d</string>
+    <string name="home_section_quick_actions">Quick Actions</string>
+    <string name="action_ai_concierge">AI Concierge</string>
+    <string name="action_ai_concierge_desc">Personalized AI travel advisor</string>
+    <string name="action_groups">Travel Groups</string>
+    <string name="action_groups_desc">Coordinate trips and share costs</string>
+    <string name="action_guides">Tour Guides</string>
+    <string name="action_guides_desc">Hire certified local experts</string>
+    <string name="home_section_categories">Browse by Category</string>
+    <string name="home_section_popular">Available Services</string>
+
+    <!-- Slots / Explore -->
+    <string name="slots_search_hint">Search destination, origin, or name…</string>
+    <string name="filter_all_categories">All Categories</string>
+    <string name="filter_price_max">Max Price ($)</string>
+    <string name="slots_empty_title">No service slots found</string>
+    <string name="slots_empty_desc">Try adjusting your search query or category filters.</string>
+    <string name="slot_available_seats">%1$d seats left</string>
+    <string name="slot_per_person">/ person</string>
+    <string name="slot_book_now">Book Now</string>
+    <string name="slot_add_to_cart">Add to Cart</string>
+    <string name="slot_already_in_cart">In Cart</string>
+    <string name="slot_added_to_cart">Added to cart!</string>
+    <string name="slot_item_details">Service Details</string>
+    <string name="slot_provider_info">Provider Information</string>
+    <string name="slot_provider_reviews">Provider Ratings &amp; Reviews</string>
+    <string name="slot_no_reviews">No customer reviews yet</string>
+
+    <!-- Cart & Checkout -->
+    <string name="title_cart">My Cart</string>
+    <string name="cart_empty_title">Your Cart is Empty</string>
+    <string name="cart_empty_desc">Browse available travel services and add them to your cart.</string>
+    <string name="btn_browse_services">Explore Services</string>
+    <string name="cart_total_label">Total: %1$s</string>
+    <string name="btn_proceed_checkout">Proceed to Checkout</string>
+    <string name="btn_clear_cart">Clear Cart</string>
+    <string name="title_checkout">Checkout</string>
+    <string name="checkout_summary">Order Summary</string>
+    <string name="checkout_payment_method">Select Payment Method</string>
+    <string name="method_card">Credit / Debit Card</string>
+    <string name="method_mobile_banking">Mobile Banking (bKash / Nagad)</string>
+    <string name="btn_confirm_pay">Confirm &amp; Pay</string>
+    <string name="checkout_processing">Processing bookings and payments…</string>
+    <string name="title_confirmation">Booking Confirmation</string>
+    <string name="confirmation_success_title">Bookings Successful!</string>
+    <string name="confirmation_partial_title">Partially Completed</string>
+    <string name="confirmation_failed_title">Booking Failed</string>
+    <string name="confirmation_msg_all_success">All %1$d service slots have been booked and processed successfully.</string>
+    <string name="confirmation_msg_partial">%1$d item(s) booked successfully. %2$d item(s) could not be processed and remain in your cart.</string>
+    <string name="confirmation_msg_failed">We were unable to process your booking. Please try again.</string>
+    <string name="btn_view_bookings">View My Bookings</string>
+    <string name="btn_back_home">Back to Home</string>
+
+    <!-- Bookings -->
+    <string name="tab_services">Services</string>
+    <string name="tab_guides">Guide Hires</string>
+    <string name="booking_id_prefix">Booking #%1$d</string>
+    <string name="guide_hire_id_format">Guide Hire #%1$d</string>
+    <string name="booking_status_label">Status: %1$s</string>
+    <string name="booking_payment_label">Payment: %1$s</string>
+    <string name="payment_received_label">PAID</string>
+    <string name="payment_pending_label">PENDING</string>
+    <string name="booked_on_format">Booked: %1$s</string>
+    <string name="tour_date_format">Date: %1$s</string>
+    <string name="guide_name_format">Guide: %1$s</string>
+    <string name="guide_name_with_location_format">Guide: %1$s (%2$s)</string>
+    <string name="loading_service_details">Loading service details…</string>
+    <string name="loading_guide_details">Loading guide details…</string>
+    <string name="licensed_tour_guide">Certified Tour Guide</string>
+    <string name="travel_service">Travel Service</string>
+    <string name="btn_cancel_booking">Cancel Booking</string>
+    <string name="btn_pay_now">Pay Now</string>
+    <string name="btn_rate_service">Rate Service</string>
+    <string name="confirm_cancel_booking_title">Cancel Booking?</string>
+    <string name="confirm_cancel_booking_msg">Are you sure you want to cancel this booking? This action cannot be reversed.</string>
+    <string name="booking_cancelled_success">Booking cancelled successfully</string>
+    <string name="bookings_empty_title">No bookings found</string>
+    <string name="bookings_empty_desc">Your booked trips, transport, and hotels will appear here.</string>
+    <string name="guide_bookings_empty_title">No guide bookings</string>
+    <string name="guide_bookings_empty_desc">Request a certified tour guide to explore local destinations.</string>
+    <string name="title_booking_detail">Booking Details</string>
+    <string name="title_guide_booking_detail">Guide Hire Details</string>
+    <string name="confirm_cancel_guide_booking_title">Cancel Guide Hire?</string>
+    <string name="confirm_cancel_guide_booking_msg">Are you sure you want to cancel this tour guide booking? This action cannot be reversed.</string>
+    <string name="guide_booking_cancelled_success">Guide hire cancelled successfully</string>
+    <string name="btn_cancel_guide_hire">Cancel Hire</string>
+    <string name="guide_hire_rate_label">Agreed Rate: %1$s</string>
+    <string name="guide_negotiated_tag">Rate Negotiated</string>
+    <string name="guide_standard_tag">Standard Rate</string>
+    <string name="guide_hire_details_section">Hire Information</string>
+    <string name="guide_info_section">Tour Guide Details</string>
+    <string name="guide_contact_phone">Phone: %1$s</string>
+    <string name="guide_contact_email">Email: %1$s</string>
+    <string name="guide_hire_schedule_date_label">Tour Date: %1$s</string>
+
+    <!-- Ratings -->
+    <string name="title_rate_service">Rate Service</string>
+    <string name="title_rate_guide">Rate Tour Guide</string>
+    <string name="rating_score_label">Your Score (1 to 5 stars):</string>
+    <string name="rating_comment_hint">Write a review or feedback (optional)…</string>
+    <string name="btn_submit_rating">Submit Rating</string>
+    <string name="rating_submitted_success">Thank you! Your rating has been submitted.</string>
+
+    <!-- Guides -->
+    <string name="guides_search_hint">Search guides by name, city, or language…</string>
+    <string name="guides_available_only">Available only</string>
+    <string name="guide_experience_years">%1$d years experience</string>
+    <string name="guide_rate_per_day">%1$s / day</string>
+    <string name="guide_negotiable_tag">Negotiable</string>
+    <string name="guides_empty_title">No tour guides found</string>
+    <string name="guides_empty_desc">Try adjusting your search criteria.</string>
+    <string name="title_guide_detail">Guide Profile</string>
+    <string name="guide_bio_label">About the Guide</string>
+    <string name="guide_languages_label">Languages Spoken</string>
+    <string name="guide_location_label">Location</string>
+    <string name="guide_availability_label">Upcoming Availability</string>
+    <string name="guide_no_availability">No specific availability schedule listed.</string>
+    <string name="btn_request_guide">Hire This Guide</string>
+    <string name="title_request_guide">Request Guide Hire</string>
+    <string name="request_guide_date_hint">Schedule Date (YYYY-MM-DD)</string>
+    <string name="request_guide_price_hint">Agreed Rate ($)</string>
+    <string name="btn_send_guide_request">Send Hire Request</string>
+    <string name="guide_request_success">Guide request submitted! Awaiting guide response.</string>
+    <string name="btn_view_live_location">View Live Location</string>
+    <string name="title_guide_location">Guide Live Location</string>
+    <string name="guide_loc_last_update">Last updated: %1$s</string>
+    <string name="guide_loc_lat_lng">Coordinates: %1$s, %2$s</string>
+    <string name="guide_loc_not_broadcasted">The guide is not currently broadcasting their location. Please check back later.</string>
+    <string name="btn_open_maps">Open in Google Maps</string>
+    <string name="title_my_guide_bookings">My Guide Hires</string>
+
+    <!-- Groups -->
+    <string name="title_groups">Travel Groups</string>
+    <string name="groups_empty_title">No travel groups yet</string>
+    <string name="groups_empty_desc">Create a group to invite friends or join one with an invite code.</string>
+    <string name="btn_create_group">Create Group</string>
+    <string name="btn_join_group">Join with Code</string>
+    <string name="title_create_group">Create Travel Group</string>
+    <string name="group_name_hint">Group Name</string>
+    <string name="group_desc_hint">Group Description (optional)</string>
+    <string name="group_max_members_hint">Max Members (e.g. 8)</string>
+    <string name="title_join_group">Join Travel Group</string>
+    <string name="group_join_code_hint">Join Code (e.g. ABC123)</string>
+    <string name="btn_join">Join Group</string>
+    <string name="group_join_success">Joined group successfully!</string>
+    <string name="title_group_detail">Group Details</string>
+    <string name="group_code_label">Invite Code: %1$s</string>
+    <string name="group_members_label">Group Members (%1$d)</string>
+    <string name="member_paid_status">Paid</string>
+    <string name="member_unpaid_status">Unpaid</string>
+    <string name="btn_pay_share">Mark My Share Paid</string>
+    <string name="btn_leave_group">Leave Group</string>
+    <string name="btn_link_booking">Link Service Booking</string>
+    <string name="btn_open_chat">Open Group Chat</string>
+    <string name="title_group_chat">Group Chat</string>
+    <string name="chat_message_hint">Type a message…</string>
+    <string name="chat_empty_title">No messages yet</string>
+    <string name="chat_empty_desc">Send a message to start the conversation!</string>
+    <string name="link_booking_title">Link Booking to Group</string>
+    <string name="link_booking_hint">Booking ID</string>
+    <string name="link_booking_btn">Link Booking</string>
+    <string name="link_booking_success">Booking linked to group!</string>
+
+    <!-- Profile -->
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="profile_edit_button">Edit Profile</string>
+    <string name="profile_delete_account">Delete Account</string>
+    <string name="confirm_delete_account_title">Delete Account?</string>
+    <string name="confirm_delete_account_msg">Are you sure you want to permanently delete your account? All your history will be removed.</string>
+    <string name="account_deleted_success">Your account has been deleted.</string>
+    <string name="profile_updated_success">Profile updated successfully</string>
+    <string name="profile_loyalty_points">Loyalty Points: %1$d</string>
+
+    <!-- AI Concierge -->
+    <string name="title_ai_concierge">Horizon AI Concierge</string>
+    <string name="ai_concierge_welcome">Hello! I am your Horizon AI Travel Concierge. Ask me for recommendations, itinerary planning, or budget advice!</string>
+    <string name="ai_input_hint">Ask anything about your trip…</string>
+    <string name="ai_char_counter">%1$d / 1000</string>
+    <string name="ai_action_filter_slots">View Matching Services</string>
+    <string name="ai_rate_limit_error">You have exceeded the rate limit (10 messages/min). Please wait a moment and try again.</string>
+    <string name="ai_error_bubble">AI Service Error: %1$s</string>
+
+    <!-- Tour Guide Shell -->
+    <string name="guide_nav_dashboard">Dashboard</string>
+    <string name="guide_nav_availability">Availability</string>
+    <string name="guide_nav_requests">Requests</string>
+    <string name="guide_nav_profile">Profile</string>
+
+    <!-- Tour Guide Dashboard -->
+    <string name="guide_rating_summary_title">Guide Performance</string>
+    <string name="guide_rating_count_format">%1$d reviews</string>
+    <string name="guide_gps_broadcast_title">Live GPS Broadcast</string>
+    <string name="guide_gps_broadcast_desc">Broadcasting location every 30s while active</string>
+    <string name="guide_gps_off_desc">Location broadcasting is turned off</string>
+    <string name="guide_gps_permission_rationale">Horizon needs your location permission to broadcast your live coordinates to tourists who have booked your guide services.</string>
+    <string name="guide_gps_permission_denied">Location permission was denied. Live location broadcasting is unavailable.</string>
+    <string name="guide_upcoming_bookings_title">Upcoming Confirmed Bookings</string>
+    <string name="guide_no_upcoming_bookings">No upcoming confirmed bookings found.</string>
+
+    <!-- Tour Guide Availability -->
+    <string name="title_guide_availability">Availability Schedule</string>
+    <string name="guide_availability_empty">No availability slots created yet. Tap + to add a new slot.</string>
+    <string name="title_create_availability">Add Availability</string>
+    <string name="title_edit_availability">Edit Availability</string>
+    <string name="availability_date_hint">Schedule Date (YYYY-MM-DD)</string>
+    <string name="availability_start_time_hint">Start Time (e.g. 09:00)</string>
+    <string name="availability_end_time_hint">End Time (e.g. 17:00)</string>
+    <string name="availability_location_hint">Location / City (optional)</string>
+    <string name="availability_notes_hint">Notes or Meeting Details (optional)</string>
+    <string name="btn_create_availability">Save Availability</string>
+    <string name="btn_update_availability">Update Slot</string>
+    <string name="btn_delete_availability">Cancel Slot</string>
+    <string name="confirm_delete_availability_title">Cancel Availability?</string>
+    <string name="confirm_delete_availability_msg">Are you sure you want to cancel this availability slot?</string>
+    <string name="availability_created_success">Availability slot created successfully!</string>
+    <string name="availability_updated_success">Availability slot updated successfully!</string>
+    <string name="availability_deleted_success">Availability slot cancelled.</string>
+    <string name="error_past_date">Selected date cannot be in the past.</string>
+    <string name="error_time_order">End time must be after start time.</string>
+    <string name="availability_locked_notice">This slot has been booked or cancelled and its schedule cannot be altered.</string>
+
+    <!-- Tour Guide Requests -->
+    <string name="title_guide_requests">Hire Requests</string>
+    <string name="filter_all">All</string>
+    <string name="filter_requested">Requested</string>
+    <string name="filter_accepted">Accepted</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_declined">Declined</string>
+    <string name="guide_requests_empty">No requests in this category.</string>
+    <string name="btn_accept_request">Accept</string>
+    <string name="btn_decline_request">Decline</string>
+    <string name="btn_mark_completed">Mark Completed</string>
+    <string name="btn_mark_payment_received">Payment Received</string>
+    <string name="confirm_decline_request_title">Decline Request?</string>
+    <string name="confirm_decline_request_msg">Are you sure you want to decline this booking request?</string>
+    <string name="confirm_payment_received_title">Confirm Cash Payment?</string>
+    <string name="confirm_payment_received_msg">Confirm that you received payment of %1$s from the tourist?</string>
+    <string name="request_accepted_success">Booking request accepted!</string>
+    <string name="request_declined_success">Booking request declined.</string>
+    <string name="request_completed_success">Booking marked as completed!</string>
+    <string name="payment_received_success">Payment confirmed!</string>
+    <string name="guide_request_id_prefix">Request #%1$d</string>
+    <string name="tourist_id_prefix">Tourist #%1$d</string>
+
+    <!-- Tour Guide Profile & Ratings -->
+    <string name="guide_profile_title">Guide Profile</string>
+    <string name="guide_status_badge">Status: %1$s</string>
+    <string name="guide_available_switch">Available for Hire</string>
+    <string name="guide_default_price_label">Rate per Day: %1$s</string>
+    <string name="guide_negotiable_label">Rate is Negotiable</string>
+    <string name="guide_experience_label">Experience: %1$d years</string>
+    <string name="guide_edit_profile_btn">Edit Profile</string>
+    <string name="guide_reviews_title">Tourist Reviews &amp; Ratings</string>
+    <string name="guide_no_reviews">No tourist reviews yet.</string>
+    <string name="guide_edit_bio_hint">About You / Bio</string>
+    <string name="guide_edit_languages_hint">Languages (comma-separated, e.g. English, Bengali)</string>
+    <string name="guide_edit_location_hint">Location / City</string>
+    <string name="guide_edit_exp_hint">Experience (years)</string>
+    <string name="guide_edit_price_hint">Default Price per Day ($)</string>
+    <string name="guide_edit_negotiable">Allow tourists to negotiate price</string>
+
+    <!-- SERVICE_PROVIDER Shell -->
+    <string name="provider_nav_dashboard">Dashboard</string>
+    <string name="provider_nav_slots">Slots</string>
+    <string name="provider_nav_bookings">Bookings</string>
+    <string name="provider_nav_ledger">Ledger</string>
+    <string name="provider_pick_ledger_dates">Select report date range</string>
+    <string name="provider_download_ledger">Download Ledger PDF</string>
+    <string name="provider_ledger_payments">Payments</string>
+    <string name="provider_ledger_commissions">Commissions</string>
+    <string name="provider_download_payments">Download Payments PDF</string>
+    <string name="provider_payment_net_format">Net payout: %1$s</string>
+    <string name="provider_payment_breakdown_format">Gross: %1$s • Commission: %2$s</string>
+    <string name="provider_no_payments">No payments found for the selected dates.</string>
+    <string name="provider_payments_unavailable">Payment records are unavailable because the server does not provide a provider payment-list endpoint.</string>
+    <string name="clear">Clear</string>
+    <string name="provider_nav_profile">Profile</string>
+
+    <!-- Provider Dashboard -->
+    <string name="provider_dashboard_title">Provider Dashboard</string>
+    <string name="provider_business_category_format">%1$s • %2$s</string>
+    <string name="provider_metric_open_slots">Open Slots</string>
+    <string name="provider_metric_total_slots">Total Slots</string>
+    <string name="provider_metric_pending_bookings">Pending Bookings</string>
+    <string name="provider_quick_actions">Quick Actions</string>
+    <string name="provider_action_create_slot">Add Service Slot</string>
+    <string name="provider_action_view_slots">Manage My Slots</string>
+    <string name="provider_action_lookup_booking">Look Up Booking</string>
+    <string name="provider_action_view_profile">Profile &amp; Ledger</string>
+    <string name="provider_status_badge">Status: %1$s</string>
+    <string name="provider_rating_summary_format">★ %1$.1f (%2$d reviews)</string>
+    <string name="provider_no_rating">No ratings yet</string>
+
+    <!-- Provider Slots -->
+    <string name="provider_slots_title">My Service Slots</string>
+    <string name="provider_slots_empty">No service slots found. Tap + to add one.</string>
+    <string name="filter_open">Open</string>
+    <string name="filter_full">Full</string>
+    <string name="filter_closed">Closed</string>
+    <string name="filter_cancelled">Cancelled</string>
+    <string name="slot_seats_format">Seats: %1$d / %2$d available</string>
+    <string name="slot_route_format">%1$s → %2$s</string>
+    <string name="slot_date_range_format">%1$s to %2$s</string>
+    <string name="slot_id_prefix">Slot #%1$d</string>
+
+    <!-- Create / Edit Slot -->
+    <string name="title_create_slot">Create Service Slot</string>
+    <string name="title_edit_slot">Edit Service Slot</string>
+    <string name="slot_category_hint">Service Category</string>
+    <string name="slot_origin_hint">Origin (e.g. Dhaka)</string>
+    <string name="slot_destination_hint">Destination (e.g. Cox\'s Bazar)</string>
+    <string name="slot_location_hint">Location / Venue (e.g. Ocean Paradise)</string>
+    <string name="slot_start_time_hint">Start Date &amp; Time (ISO)</string>
+    <string name="slot_end_time_hint">End Date &amp; Time (ISO)</string>
+    <string name="slot_capacity_hint">Total Capacity (e.g. 40)</string>
+    <string name="slot_price_hint">Price per Seat / Unit ($)</string>
+    <string name="slot_status_hint">Slot Status</string>
+    <string name="btn_create_slot">Publish Service Slot</string>
+    <string name="btn_update_slot">Save Changes</string>
+    <string name="btn_delete_slot">Cancel / Delete Slot</string>
+    <string name="confirm_delete_slot_title">Cancel Slot?</string>
+    <string name="confirm_delete_slot_msg">Are you sure you want to cancel this service slot? Existing bookings may be impacted.</string>
+    <string name="slot_created_success">Service slot published successfully!</string>
+    <string name="slot_updated_success">Service slot updated successfully!</string>
+    <string name="slot_deleted_success">Service slot cancelled.</string>
+    <string name="error_slot_category_required">Please select a service category.</string>
+    <string name="error_slot_location_or_route">Specify either Origin &amp; Destination or a Location Name.</string>
+    <string name="error_slot_capacity_invalid">Capacity must be greater than 0.</string>
+    <string name="error_slot_price_invalid">Price must be greater than 0.</string>
+    <string name="error_slot_dates_invalid">End date-time must be after start date-time.</string>
+    <string name="error_slot_start_future">Start date-time cannot be in the past.</string>
+
+    <!-- Provider Bookings -->
+    <string name="provider_bookings_title">Bookings &amp; Verification</string>
+    <string name="provider_booking_lookup_title">Verify Booking by ID</string>
+    <string name="provider_booking_lookup_hint">Enter Booking ID (e.g. 101)</string>
+    <string name="btn_lookup_booking">Verify Booking</string>
+    <string name="provider_booking_limitation_notice">Backend Limitation Notice: The backend does not expose a single-booking detail endpoint (/bookings/{id}). Verification is performed through payment transaction history (GET /payments/booking/{bookingId}) and provider bookings.</string>
+    <string name="provider_payments_for_booking_title">Payment Records for Booking #%1$d</string>
+    <string name="provider_no_payments_found">No payment records found for this booking ID.</string>
+    <string name="provider_payment_item_format">Tx #%1$d: %2$s - %3$s (%4$s)</string>
+    <string name="provider_booking_records_title">My Slot Bookings</string>
+    <string name="provider_no_bookings_found">No slot bookings found.</string>
+    <string name="booking_id_item_format">Booking #%1$d</string>
+    <string name="booking_tourist_item_format">Tourist #%1$d • Slot #%2$d</string>
+    <string name="booking_amount_format">Amount: %1$s • %2$s</string>
+
+    <!-- Provider Profile & Commissions -->
+    <string name="provider_profile_title">Provider Profile</string>
+    <string name="provider_business_name_label">Business: %1$s</string>
+    <string name="provider_license_label">License: %1$s</string>
+    <string name="provider_category_label">Category: %1$s</string>
+    <string name="provider_commission_rate_label">Commission Rate: %1$.1f%%</string>
+    <string name="provider_rating_label">Rating: ★ %1$.1f (%2$d reviews)</string>
+    <string name="provider_edit_profile_btn">Edit Profile</string>
+    <string name="provider_commissions_title">Commissions Ledger</string>
+    <string name="provider_no_commissions">No commission records recorded yet.</string>
+    <string name="commission_item_format">Booking #%1$d • Rate: %2$.1f%%</string>
+    <string name="commission_amount_format">Commission: %1$s</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_settled">Settled</string>
+    <string name="title_edit_provider_profile">Edit Provider Profile</string>
+    <string name="provider_edit_business_name_hint">Business / Company Name</string>
+    <string name="provider_edit_license_hint">Trade License No</string>
+    <string name="provider_edit_commission_rate_hint">Commission Rate (%)</string>
+    <string name="provider_profile_updated_success">Profile updated successfully!</string>
+    <string name="confirm_logout">Are you sure you want to log out?</string>
+
+    <!-- ADMIN Shell -->
+    <string name="admin_nav_verifications">Verifications</string>
+    <string name="admin_nav_users">Users</string>
+    <string name="admin_nav_finance">Finance</string>
+    <string name="admin_nav_reports">Reports</string>
+
+    <!-- Admin Verifications -->
+    <string name="admin_verifications_title">Pending Verifications</string>
+    <string name="admin_verification_filter_all">All</string>
+    <string name="admin_verification_filter_guides">Guides</string>
+    <string name="admin_verification_filter_providers">Providers</string>
+    <string name="admin_verification_details_title">Verification Details</string>
+    <string name="admin_verification_contact">Contact</string>
+    <string name="admin_verification_profile">Profile</string>
+    <string name="admin_verification_business">Business</string>
+    <string name="admin_verification_identity">Identity and verification</string>
+    <string name="admin_verification_not_available">Not provided</string>
+    <string name="admin_verification_email">Email: %1$s</string>
+    <string name="admin_verification_phone">Phone: %1$s</string>
+    <string name="admin_verification_address">Address: %1$s</string>
+    <string name="admin_verification_location">Location: %1$s</string>
+    <string name="admin_verification_languages">Languages: %1$s</string>
+    <string name="admin_verification_experience">Experience: %1$d years</string>
+    <string name="admin_verification_price">Default price: %1$s</string>
+    <string name="admin_verification_availability">Available: %1$s</string>
+    <string name="admin_verification_negotiable">Negotiable: %1$s</string>
+    <string name="admin_verification_bio">Bio: %1$s</string>
+    <string name="admin_verification_category">Category: %1$s</string>
+    <string name="admin_verification_license">Trade license: %1$s</string>
+    <string name="admin_verification_commission">Commission rate: %1$s</string>
+    <string name="admin_verification_national_id">National ID: %1$s</string>
+    <string name="admin_verification_status">Account status: %1$s</string>
+    <string name="admin_verification_review_status">Verification status: %1$s</string>
+    <string name="admin_verification_rejection_reason">Rejection reason: %1$s</string>
+    <string name="admin_verification_rating">Rating: %1$s (%2$d reviews)</string>
+    <string name="admin_verification_tap_details">Tap to view full details</string>
+    <string name="search_groups_hint">Search groups</string>
+    <string name="search_availability_hint">Search availability</string>
+    <string name="search_provider_slots_hint">Search slots</string>
+    <string name="search_notifications_hint">Search notifications</string>
+    <string name="search_guide_bookings_hint">Search guide bookings</string>
+    <string name="search_verifications_hint">Search applicants</string>
+    <string name="search_bookings_hint">Search bookings</string>
+    <string name="download_bookings_report">Download Bookings Report PDF</string>
+    <string name="admin_section_guides">Tour Guides</string>
+    <string name="admin_section_providers">Service Providers</string>
+    <string name="admin_no_pending_verifications">No pending registrations to verify.</string>
+    <string name="admin_no_pending_guides">No pending tour guides.</string>
+    <string name="admin_no_pending_providers">No pending service providers.</string>
+    <string name="btn_approve">Approve</string>
+    <string name="btn_reject">Reject</string>
+    <string name="confirm_approve_title">Approve Registration?</string>
+    <string name="confirm_approve_guide_msg">Are you sure you want to approve tour guide %1$s?</string>
+    <string name="confirm_approve_provider_msg">Are you sure you want to approve service provider %1$s?</string>
+    <string name="dialog_reject_title">Reject Registration</string>
+    <string name="dialog_reject_reason_hint">Rejection Reason (required)</string>
+    <string name="btn_confirm_reject">Confirm Rejection</string>
+    <string name="approval_success">Registration approved successfully!</string>
+    <string name="rejection_success">Registration rejected.</string>
+
+    <!-- Admin Users -->
+    <string name="admin_users_title">User Management</string>
+    <string name="search_users_hint">Search users by name or email…</string>
+    <string name="filter_role_all">All Roles</string>
+    <string name="filter_role_tourist">Tourist</string>
+    <string name="filter_role_guide">Guide</string>
+    <string name="filter_role_provider">Provider</string>
+    <string name="filter_role_admin">Admin</string>
+    <string name="filter_status_all">All Statuses</string>
+    <string name="filter_status_active">Active</string>
+    <string name="filter_status_pending">Pending</string>
+    <string name="filter_status_suspended">Suspended</string>
+    <string name="filter_status_revoked">Revoked</string>
+    <string name="admin_no_users_found">No users match the selected filters.</string>
+    <string name="status_change_title">Update Status: %1$s</string>
+    <string name="confirm_suspend_title">Suspend User?</string>
+    <string name="confirm_suspend_msg">Are you sure you want to suspend %1$s? The user will not be able to log in.</string>
+    <string name="confirm_revoke_title">Revoke User Access?</string>
+    <string name="confirm_revoke_msg">Are you sure you want to revoke %1$s? This action will disable the user account permanently.</string>
+    <string name="user_status_updated">User status updated successfully!</string>
+    <string name="user_role_status_format">%1$s • %2$s</string>
+
+    <!-- Admin Finance -->
+    <string name="admin_finance_title">Finance &amp; Settlements</string>
+    <string name="admin_download_finance_report">Download Report PDF</string>
+    <string name="segment_payments">Payments</string>
+    <string name="segment_commissions">Commissions</string>
+    <string name="btn_pick_date_range">Filter Date Range</string>
+    <string name="date_range_format">%1$s – %2$s</string>
+    <string name="clear_date_filter">Clear Date Filter</string>
+    <string name="admin_no_payments">No payment transactions found.</string>
+    <string name="admin_no_commissions">No commission records found.</string>
+    <string name="btn_settle">Settle</string>
+    <string name="confirm_settle_title">Settle Commission?</string>
+    <string name="confirm_settle_msg">Confirm commission settlement of %1$s for %2$s?</string>
+    <string name="commission_settled_success">Commission settled successfully!</string>
+    <string name="payment_card_format">Payment #%1$d • %2$s</string>
+    <string name="payment_method_format">Method: %1$s • %2$s</string>
+    <string name="payment_linked_format">Linked Booking: #%1$s</string>
+    <string name="commission_provider_format">%1$s (%2$s)</string>
+
+    <!-- Admin Reports -->
+    <string name="admin_reports_title">Analytics &amp; Reports</string>
+    <string name="report_revenue_title">Revenue Summary</string>
+    <string name="report_total_revenue">Total Gross Revenue: %1$s</string>
+    <string name="report_total_commission">Total Platform Commission: %1$s</string>
+    <string name="report_payment_count">Total Transactions: %1$d</string>
+    <string name="report_bookings_title">Bookings Summary</string>
+    <string name="report_total_bookings">Total Bookings: %1$d</string>
+    <string name="report_pending_bookings">Pending: %1$d</string>
+    <string name="report_confirmed_bookings">Confirmed: %1$d</string>
+    <string name="report_cancelled_bookings">Cancelled: %1$d</string>
+    <string name="report_completed_bookings">Completed: %1$d</string>
+    <string name="report_commission_title">Commissions Breakdown</string>
+    <string name="report_total_comm">Calculated: %1$s</string>
+    <string name="report_pending_comm">Pending Settlement: %1$s</string>
+    <string name="report_settled_comm">Settled: %1$s</string>
+
+    <!-- Admin Overflow Menu -->
+    <string name="action_change_password">Change Password</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Hardening String Resources -->
+    <string name="action_send">Send</string>
+    <string name="action_apply">Apply</string>
+    <string name="default_count_zero">0</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="payment_linked_slot_booking">Linked Slot Booking: #%d</string>
+    <string name="payment_linked_guide_booking">Linked Guide Booking: #%d</string>
+    <string name="payment_unlinked_transaction">Unlinked Transaction</string>
+    <string name="booking_payment_history">Payment History</string>
+    <string name="booking_no_payments">No payment transactions recorded yet.</string>
+    <string name="total_amount_label">Total Amount</string>
+    <string name="group_create_subtitle">Create a travel group to invite friends, link bookings, and split trip costs.</string>
+    <string name="current_status_prefix">Current Status: </string>
+    <string name="guide_live_tracking_title">Tour Guide Live Tracking</string>
+    <string name="guide_auto_refresh_desc">• Auto-refreshing every 15 seconds</string>
+    <string name="action_check_again">Check Again</string>
+    <string name="group_join_subtitle">Enter the join code shared by your group organizer.</string>
+    <string name="guide_negotiation_accepted">This guide accepts price negotiation.</string>
+    <string name="label_available_seats">Available Seats</string>
+    <string name="slot_price_label">Price</string>
+    <string name="slot_schedule_label">Schedule</string>
+    <string name="action_search">Search</string>
+    <string name="profile_details_title">Profile Details</string>
+    <string name="account_settings_title">Account Settings</string>
+    <string name="provider_overview_metrics">Overview &amp; Metrics</string>
+    <string name="admin_tap_change_status">Tap to change status →</string>
+    <string name="ai_concierge_title">Horizon AI Concierge</string>
+    <string name="ai_explore_package">Explore Recommended Package</string>
+    <string name="one_service_slot">1 Service Slot</string>
+    <string name="action_rate_guide">Rate Guide</string>
+    <string name="provider_tap_verify_payments">Tap to verify payments →</string>
+
+    <!-- Landing / Default Activity (MainActivity) -->
+    <string name="landing_welcome_title">Discover Amazing places with Horizon Travel</string>
+    <string name="landing_welcome_subtitle">Your all-in-one smart travel ecosystem. Book transport, hotels, certified guides, and explore curated travel experiences.</string>
+    <string name="landing_sign_in">Sign In</string>
+    <string name="landing_register">Register</string>
+    <string name="my_portal">My Portal</string>
+
+    <string name="landing_pill_verified">✓ Verified&#10;Providers</string>
+    <string name="landing_pill_guides">✓ Certified&#10;Guides</string>
+    <string name="landing_pill_ai">✓ 24/7 AI&#10;Concierge</string>
+
+    <string name="landing_section_services_title">Services Provided by Horizon</string>
+    <string name="landing_section_services_subtitle">Everything you need for seamless travel in one connected platform</string>
+
+    <string name="landing_service_transport_title">Intercity &amp; Local Transport</string>
+    <string name="landing_service_transport_desc">Reserve AC buses, launches, domestic flights, microbuses, and trains with real-time seat availability.</string>
+
+    <string name="landing_service_hotels_title">Hotels &amp; Eco-Resorts</string>
+    <string name="landing_service_hotels_desc">Find and book verified seaside resorts, luxury suites, and budget stays across top destinations.</string>
+
+    <string name="landing_service_guides_title">Certified Local Tour Guides</string>
+    <string name="landing_service_guides_desc">Hire licensed guides with transparent ratings, negotiable pricing, and live GPS location tracking.</string>
+
+    <string name="landing_service_groups_title">Group Tours &amp; Community</string>
+    <string name="landing_service_groups_desc">Join shared trips with other travelers or create your own group to share transport and tour costs.</string>
+
+    <string name="landing_service_ai_title">AI Smart Travel Concierge</string>
+    <string name="landing_service_ai_desc">Get personalized itineraries, budget advice, and instant travel support powered by AI.</string>
+
+    <string name="landing_section_how_title">How Horizon Travel Works</string>
+    <string name="landing_section_how_subtitle">Three easy steps to your next adventure</string>
+    <string name="landing_how_step1_title">1. Search &amp; Compare</string>
+    <string name="landing_how_step1_desc">Browse real-time service slots, verify pricing, and check provider reviews without logging in.</string>
+    <string name="landing_how_step2_title">2. Sign In &amp; Book</string>
+    <string name="landing_how_step2_desc">Create an account or sign in to reserve seats, book hotel rooms, or hire certified guides securely.</string>
+    <string name="landing_how_step3_title">3. Travel with Confidence</string>
+    <string name="landing_how_step3_desc">Receive instant booking confirmations, live guide location tracking, and 24/7 assistance.</string>
+
+    <string name="landing_section_search_title">Search Provider Services</string>
+    <string name="landing_section_search_subtitle">Real-time availability from registered service providers</string>
+    <string name="landing_search_hint">Search destination, city, or service name…</string>
+    <string name="landing_search_note">Browse live services below. Sign in with an account to book.</string>
+    <string name="landing_services_count">%1$d services available</string>
+
+    <string name="landing_filter_all">All</string>
+    <string name="landing_filter_hotel">Hotels</string>
+    <string name="landing_filter_resort">Resorts</string>
+    <string name="landing_filter_bus">Buses</string>
+    <string name="landing_filter_microbus">Microbuses</string>
+    <string name="landing_filter_launch">Launches</string>
+    <string name="landing_filter_ship">Ships</string>
+    <string name="landing_filter_train">Trains</string>
+    <string name="landing_filter_flight">Flights</string>
+    <string name="landing_filter_attraction">Amusement Parks</string>
+    <string name="landing_filter_amusement_park">Amusement Parks</string>
+    <string name="category_amusement_park">Amusement Park</string>
+    <string name="landing_filter_buffet">Buffets</string>
+
+    <string name="landing_empty_title">No Services Found</string>
+    <string name="landing_empty_desc">No service slots match your current search or category filter. Try clearing your search.</string>
+    <string name="landing_btn_clear_filters">Clear Filters</string>
+
+    <string name="landing_cta_title">Ready to Begin Your Journey?</string>
+    <string name="landing_cta_desc">Sign in or create a free account to book service slots, connect with local guides, and unlock full access.</string>
+    <string name="landing_cta_btn_signin">Sign In to Your Account</string>
+    <string name="landing_cta_btn_register">Create Free Account</string>
+
+    <string name="dialog_sign_in_required_title">Sign In Required</string>
+    <string name="dialog_sign_in_required_msg">Please sign in to book services. You can sign in with your account or create a new one to complete your booking.</string>
+    <string name="dialog_sign_in_button">Sign In</string>
+    <string name="dialog_register_button">Register</string>
+    <string name="guest_booking_hint">Browsing as Guest • Sign in to book</string>
+    <string name="only_tourists_can_book">Only tourist accounts can book service slots.</string>
+    <string name="explore_as_guest">Explore Services as Guest</string>
+    <string name="status_success">SUCCESS</string>
+    <string name="status_failed">FAILED</string>
+    <string name="status_refunded">REFUNDED</string>
+    <string name="star_symbol">★</string>
+    <string name="category_hotel">Hotel</string>
+    <string name="category_resort">Resort</string>
+    <string name="category_bus">Bus</string>
+    <string name="category_train">Train</string>
+    <string name="category_airplane">Airplane</string>
+    <string name="category_buffet">Buffet</string>
+    <string name="status_pending">PENDING</string>
+    <string name="method_card_short">CARD</string>
+    <string name="method_mobile_banking_short">MOBILE_BANKING</string>
+    <string name="method_cash_short">CASH</string>
+    <string name="toast_invalid_availability_slo">Invalid availability slot</string>
+    <string name="toast_slot_not_found">Slot not found</string>
+    <string name="toast_invalid_session">Invalid session</string>
+    <string name="title_location_permission_need">Location Permission Needed</string>
+    <string name="text_languages__none_specified">Languages: None specified</string>
+    <string name="toast_invalid_slot_id">Invalid slot ID</string>
+    <string name="text_0">0</string>
+    <string name="toast_invalid_booking">Invalid booking</string>
+    <string name="toast_booking_not_found">Booking not found</string>
+    <string name="toast_payment_successful">Payment successful!</string>
+    <string name="title_complete_payment">Complete Payment</string>
+    <string name="toast_payment_processed_succes">Payment processed successfully!</string>
+    <string name="title_pay_guide_fee">Pay Guide Fee</string>
+    <string name="msg_are_you_sure_you_want_to_e">Are you sure you want to empty your cart?</string>
+    <string name="toast_your_cart_is_empty">Your cart is empty</string>
+    <string name="toast_group_created_successful">Group created successfully!</string>
+    <string name="toast_invalid_group">Invalid group</string>
+    <string name="text_linked_booking__none">Linked Booking: None</string>
+    <string name="toast_share_marked_as_paid">Share marked as paid!</string>
+    <string name="toast_you_left_the_group">You left the group.</string>
+    <string name="msg_are_you_sure_you_want_to_l">Are you sure you want to leave this travel group?</string>
+    <string name="toast_invalid_guide_booking">Invalid guide booking</string>
+    <string name="toast_guide_booking_not_found">Guide booking not found</string>
+    <string name="text_not_specified">Not specified</string>
+    <string name="toast_invalid_tour_guide">Invalid tour guide</string>
+    <string name="msg_are_you_sure_you_want_to_s">Are you sure you want to sign out?</string>
+    <string name="text_verified_provider">Verified Provider</string>
+    <string name="toast_invalid_service_slot">Invalid service slot</string>
+    <!-- Theme Strings -->
+    <string name="action_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="btn_download_invoice">Download Invoice</string>
+    <string name="toast_invoice_downloading">Downloading invoice...</string>
+</resources>

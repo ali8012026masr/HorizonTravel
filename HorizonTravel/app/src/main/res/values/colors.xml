@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#1A365D</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#DCE6F2</color>
+    <color name="on_primary_container">#0F2440</color>
+
+    <color name="secondary">#0D9488</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CCFBF1</color>
+    <color name="on_secondary_container">#115E59</color>
+
+    <color name="tertiary">#D97706</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#FEF3C7</color>
+    <color name="on_tertiary_container">#92400E</color>
+
+    <!-- Specific semantic tokens -->
+    <color name="navy_primary">#1A365D</color>
+    <color name="teal_secondary">#0D9488</color>
+    <color name="coral_accent">#F43F5E</color>
+
+    <!-- Surfaces and backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="on_background">#0F172A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#0F172A</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface_variant">#475569</color>
+    <color name="outline">#CBD5E1</color>
+    <color name="outline_variant">#E2E8F0</color>
+
+    <!-- Status and semantic colors -->
+    <!-- Dark badge fills keep the existing white badge text readable. -->
+    <color name="status_active">#166534</color>
+    <color name="status_pending">#9A3412</color>
+    <color name="status_error">#B91C1C</color>
+    <color name="status_suspended">#334155</color>
+    <color name="badge_pending">#9A3412</color>
+    <color name="badge_error">#B91C1C</color>
+    <color name="badge_success">#166534</color>
+    <color name="badge_info">#1E3A8A</color>
+    <color name="badge_neutral">#334155</color>
+    <color name="badge_text">#FFFFFF</color>
+
+    <!-- Basic utility colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#9A3412</color>
+    <color name="text_secondary">#475569</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>

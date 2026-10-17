@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/navy_primary"
+        android:title="@string/admin_verification_details_title"
+        android:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/navy_primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/teal_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvContactHeader"
+                style="@style/VerificationDetailHeader"
+                android:text="@string/admin_verification_contact" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                style="@style/VerificationDetailValue" />
+
+            <TextView
+                android:id="@+id/tvProfileHeader"
+                style="@style/VerificationDetailHeader"
+                android:text="@string/admin_verification_profile" />
+
+            <TextView
+                android:id="@+id/tvProfile"
+                style="@style/VerificationDetailValue" />
+
+            <TextView
+                android:id="@+id/tvBusinessHeader"
+                style="@style/VerificationDetailHeader"
+                android:text="@string/admin_verification_business" />
+
+            <TextView
+                android:id="@+id/tvBusiness"
+                style="@style/VerificationDetailValue" />
+
+            <TextView
+                android:id="@+id/tvIdentityHeader"
+                style="@style/VerificationDetailHeader"
+                android:text="@string/admin_verification_identity" />
+
+            <TextView
+                android:id="@+id/tvIdentity"
+                style="@style/VerificationDetailValue" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
