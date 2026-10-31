@@ -20,6 +20,7 @@ import com.example.horizontravel.databinding.ActivityMainBinding;
 import com.example.horizontravel.ui.BaseActivity;
 import com.example.horizontravel.ui.auth.LoginActivity;
 import com.example.horizontravel.ui.auth.RegisterChooserActivity;
+import com.example.horizontravel.ui.shared.ContactUsActivity;
 import com.example.horizontravel.ui.tourist.SlotAdapter;
 import com.example.horizontravel.ui.tourist.SlotDetailActivity;
 import com.example.horizontravel.util.RoleRouter;
@@ -91,6 +92,14 @@ public class MainActivity extends BaseActivity {
                 }
             }
         });
+
+        if (binding.btnContactUs != null) {
+            binding.btnContactUs.setOnClickListener(v -> {
+                if (isSingleClick()) {
+                    startActivity(new Intent(this, ContactUsActivity.class));
+                }
+            });
+        }
 
         if (binding.btnThemeToggle != null) {
             binding.btnThemeToggle.setOnClickListener(v -> {
@@ -179,6 +188,30 @@ public class MainActivity extends BaseActivity {
                 startActivity(new Intent(this, RegisterChooserActivity.class));
             }
         });
+
+        if (binding.btnLandingContactUs != null) {
+            binding.btnLandingContactUs.setOnClickListener(v -> {
+                if (isSingleClick()) {
+                    startActivity(new Intent(this, ContactUsActivity.class));
+                }
+            });
+        }
+
+        if (binding.cardContactBanner != null) {
+            binding.cardContactBanner.setOnClickListener(v -> {
+                if (isSingleClick()) {
+                    startActivity(new Intent(this, ContactUsActivity.class));
+                }
+            });
+        }
+
+        if (binding.btnCtaContact != null) {
+            binding.btnCtaContact.setOnClickListener(v -> {
+                if (isSingleClick()) {
+                    startActivity(new Intent(this, ContactUsActivity.class));
+                }
+            });
+        }
     }
 
     private void loadSlots() {

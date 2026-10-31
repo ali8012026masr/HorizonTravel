@@ -140,6 +140,11 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
+        <activity
+            android:name=".ui.shared.ContactUsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
         <!-- Phase 4 Tourist Activities -->
         <activity
             android:name=".ui.tourist.SlotDetailActivity"

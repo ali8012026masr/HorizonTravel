@@ -793,4 +793,60 @@
     <string name="choose_theme">Choose Theme</string>
     <string name="btn_download_invoice">Download Invoice</string>
     <string name="toast_invoice_downloading">Downloading invoice...</string>
+    <!-- Landing Facilities and Contact Strings -->
+    <string name="landing_contact_support">Contact Support &amp; Demo Info</string>
+    <string name="landing_section_facilities_title">Platform Facilities &amp; Guarantees</string>
+    <string name="landing_section_facilities_subtitle">Built with safety, transparency, and high performance in mind</string>
+    <string name="landing_facility_verification_title" formatted="false">100% Admin-Verified Providers</string>
+    <string name="landing_facility_verification_desc">Every tour guide and service provider undergoes manual document and background verification before offering services.</string>
+    <string name="landing_facility_tracking_title">Live GPS Guide Tracking</string>
+    <string name="landing_facility_tracking_desc">Guides broadcast real-time locations during tours, providing enhanced tourist safety and easy group rendezvous.</string>
+    <string name="landing_facility_chat_title">Dynamic Community &amp; Chat</string>
+    <string name="landing_facility_chat_desc">Connect with fellow tourists, form custom travel groups, split itinerary costs, and communicate via live group messaging.</string>
+    <string name="landing_facility_vouchers_title">Digital Vouchers &amp; Cart System</string>
+    <string name="landing_facility_vouchers_desc">Multi-service booking in one unified cart, instantly generating verifiable digital receipts and booking vouchers.</string>
+    <string name="landing_facility_ai_title">24/7 AI Smart Concierge</string>
+    <string name="landing_facility_ai_desc">Instant intelligent responses for trip planning, destination recommendations, and budget calculation powered by AI.</string>
+
+    <string name="landing_contact_card_title">Need Assistance or Have Questions?</string>
+    <string name="landing_contact_card_subtitle">Our demo support team and emergency helplines are available 24/7. Reach out via call, email, or send us a message.</string>
+    <string name="landing_btn_contact_us">Contact Support &amp; Info</string>
+
+    <!-- Contact Activity Strings -->
+    <string name="contact_title">Contact Support &amp; Demo Info</string>
+    <string name="contact_header_title">"We're Here to Help"</string>
+    <string name="contact_header_subtitle">Reach out to our demo support center, explore our facilities, or send us an inquiry.</string>
+    <string name="contact_section_direct">Direct Contact Channels</string>
+    <string name="contact_phone_primary_label">Customer Support Helpline</string>
+    <string name="contact_phone_primary_val">+880 1700-123456</string>
+    <string name="contact_phone_secondary_label">24/7 Emergency Tourism Hotline</string>
+    <string name="contact_phone_secondary_val">+880 999-TRAVEL</string>
+    <string name="contact_email_label">Official Support Email</string>
+    <string name="contact_email_val">support@horizontravel.com</string>
+    <string name="contact_business_email_label">Partner &amp; Guide Relations</string>
+    <string name="contact_business_email_val">partners@horizontravel.com</string>
+    <string name="contact_address_label">Horizon Travel Headquarters</string>
+    <string name="contact_address_val">Level 8, Concord Tower, Plot 42, Gulshan-2, Dhaka 1212, Bangladesh</string>
+    <string name="contact_hours_label">Operating Hours</string>
+    <string name="contact_hours_val">Saturday – Thursday: 8:00 AM – 10:00 PM&#10;Friday: 2:00 PM – 9:00 PM (Emergency Support: 24/7)</string>
+    <string name="contact_section_message">Send a Demo Message</string>
+    <string name="contact_name_hint">Your Full Name</string>
+    <string name="contact_email_hint">Your Email Address</string>
+    <string name="contact_phone_hint">Your Phone Number (Optional)</string>
+    <string name="contact_subject_hint">Subject / Topic</string>
+    <string name="contact_message_hint">Write your question or feedback here…</string>
+    <string name="contact_btn_send">Send Demo Message</string>
+    <string name="contact_err_name_required">Please enter your name</string>
+    <string name="contact_err_email_invalid">Please enter a valid email address</string>
+    <string name="contact_err_subject_required">Please enter a subject</string>
+    <string name="contact_err_message_required">Please write a message</string>
+    <string name="contact_success_message">Thank you, %1$s! Your demo inquiry has been logged. Our team will contact you shortly.</string>
+    <string name="contact_faq_title">Frequently Asked Questions &amp; Facilities</string>
+    <string name="contact_faq_1_q">How does provider verification work?</string>
+    <string name="contact_faq_1_a">Guides and service providers must submit valid national identification and professional certifications. System administrators manually verify each submission before services become available for booking.</string>
+    <string name="contact_faq_2_q">Can I cancel or refund a booked slot?</string>
+    <string name="contact_faq_2_a">Yes, tourists can cancel pending bookings directly from the Bookings tab. Refunds are processed according to provider cancellation policies.</string>
+    <string name="contact_faq_3_q">Is live location tracking secure?</string>
+    <string name="contact_faq_3_a">Yes, guide location broadcasting is optional and only activated when a tour guide chooses to share their coordinates during an active tour.</string>
+    <string name="back">Back</string>
 </resources>
